@@ -1,0 +1,7 @@
+name: codeigniter-exchange-rates
+
+version: 0.1.0
+
+compatibility: 2.1.0
+
+tags: ["curl", "exchange", "money"]
