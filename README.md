@@ -1,6 +1,6 @@
 # Exchange Library for Codeigniter
 
-This library will get the infromation from openexchange.org
+This library will get the infromation from openexchangerates.org
 
 
 ## Requirements :
@@ -12,4 +12,4 @@ This library will get the infromation from openexchange.org
 
 ## Information :
 
-* For more information check http://www.openexchange.org .
+* For more information check http://www.openexchangerates.org .
