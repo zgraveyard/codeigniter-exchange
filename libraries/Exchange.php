@@ -18,11 +18,13 @@ class Exchange
 	protected $file_name = NULL;
 	protected $exchange_rates = NULL;
 	protected $currency_name = NULL;
+	protected $app_id = NULL;
 
 	public function __construct()
 	{
+		$this->app_id = config_item('rate_app_id');
 		$this->open_exchange_url = 'http://openexchangerates.org/';
-		$this->file_name = 'latest.json';
+		$this->file_name = 'latest.json?app_id='.$this->app_id;
 		$this->_init();
 	}
 
